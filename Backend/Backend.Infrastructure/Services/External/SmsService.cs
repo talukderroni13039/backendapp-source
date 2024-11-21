@@ -13,13 +13,7 @@ namespace Backend.Infrastructure.Services.External
     {
         public bool SendSMS( string mobileNumber, string messsage)
         {
-            string accountSid = "ACd6c54eb6025a8875c8ffdf4d737fd6d0";
-            string authToken = "a5b559da49cfd95fabb1e14a67bfc7b6";
             string fromPhoneNumber = "+12157038737";
-
-
-            TwilioClient.Init(accountSid, authToken);
-
             try
             {
                 var message = MessageResource.Create(
