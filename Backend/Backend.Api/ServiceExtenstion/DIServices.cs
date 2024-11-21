@@ -37,7 +37,7 @@ namespace Backend.Api.ServiceExtenstion
             //External Services
             services.AddTransient<IEmailService, EmailService>();
             services.AddTransient<IOTPService, OTPService>();
-            services.AddTransient<ISmsService, SmsService>();
+          
             //Cacheing 
             //  services.AddScoped<IInMemoryCache, InMemoryCache>();
             services.AddScoped<IRedisCache, RedisCache>();
