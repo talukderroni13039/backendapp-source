@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "4MKdWpnTaB4xT1odqN+zvgo1PYSOqnZ1fSKA3zJ3nQk=",
+  "Source": "Backend.Api",
+  "BasePath": "_content/Backend.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Backend.Api\\wwwroot",
+      "Source": "Backend.Api",
+      "ContentRoot": "D:\\Talukder_GitHub\\ApiTemplate\\Backend\\Backend.Api\\wwwroot\\",
+      "BasePath": "_content/Backend.Api",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

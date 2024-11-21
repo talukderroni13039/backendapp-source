@@ -1,0 +1,13 @@
+D:\Talukder_GitHub\ApiTemplate\Backend\Backend.Common\bin\Debug\net8.0\Backend.Common.deps.json
+D:\Talukder_GitHub\ApiTemplate\Backend\Backend.Common\bin\Debug\net8.0\Backend.Common.dll
+D:\Talukder_GitHub\ApiTemplate\Backend\Backend.Common\bin\Debug\net8.0\Backend.Common.pdb
+D:\Talukder_GitHub\ApiTemplate\Backend\Backend.Common\obj\Debug\net8.0\Backend.Common.csproj.AssemblyReference.cache
+D:\Talukder_GitHub\ApiTemplate\Backend\Backend.Common\obj\Debug\net8.0\Backend.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\Talukder_GitHub\ApiTemplate\Backend\Backend.Common\obj\Debug\net8.0\Backend.Common.AssemblyInfoInputs.cache
+D:\Talukder_GitHub\ApiTemplate\Backend\Backend.Common\obj\Debug\net8.0\Backend.Common.AssemblyInfo.cs
+D:\Talukder_GitHub\ApiTemplate\Backend\Backend.Common\obj\Debug\net8.0\Backend.Common.csproj.CoreCompileInputs.cache
+D:\Talukder_GitHub\ApiTemplate\Backend\Backend.Common\obj\Debug\net8.0\Backend.Common.sourcelink.json
+D:\Talukder_GitHub\ApiTemplate\Backend\Backend.Common\obj\Debug\net8.0\Backend.Common.dll
+D:\Talukder_GitHub\ApiTemplate\Backend\Backend.Common\obj\Debug\net8.0\refint\Backend.Common.dll
+D:\Talukder_GitHub\ApiTemplate\Backend\Backend.Common\obj\Debug\net8.0\Backend.Common.pdb
+D:\Talukder_GitHub\ApiTemplate\Backend\Backend.Common\obj\Debug\net8.0\ref\Backend.Common.dll

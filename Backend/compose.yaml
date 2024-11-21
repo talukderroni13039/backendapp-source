@@ -1,0 +1,25 @@
+version: '3.4'
+
+services:
+    SqlServerDb:
+        container_name: SqlServerContainer
+        image: mcr.microsoft.com/mssql/server:2019-latest
+        ports:
+            - 8002:1433
+        environment:
+            - ACCEPT_EULA=Y
+            - MSSQL_SA_PASSWORD=myStong_Password123#
+    WebApi:
+        container_name: BackendContainer
+        image: backend_api
+        ports:
+            - 8000:5000
+        environment:
+          - ConnectionStrings__DefaultConnection=Data Source=SqlServerContainer;Initial Catalog=BackendDB;Persist Security Info=True;User ID=sa;Password=myStong_Password123#
+          - DOTNET_URLS=http://+:5000
+          
+        build:
+          context: .
+          dockerfile: Dockerfile
+        depends_on:
+            - SqlServerDb
