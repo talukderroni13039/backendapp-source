@@ -31,7 +31,7 @@ jobs:
           context: ./Backend  # Updated: Specify path to Backend folder
           file: ./Backend/Dockerfile  # Dockerfile location
           push: true
-          tags: ghcr.io/talukderroni13039/backendapp:latest
+          tags: ghcr.io/talukderroni13039/backendapp-source:latest
         
 
   deploy:
