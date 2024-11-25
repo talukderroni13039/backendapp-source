@@ -28,10 +28,11 @@ jobs:
       - name: Build and push container image to registry
         uses: docker/build-push-action@v3
         with:
-          context: .
+          context: ./Backend  # Updated: Specify path to Backend folder
+          file: ./Backend/Dockerfile  # Dockerfile location
           push: true
           tags: ghcr.io/talukderroni13039/backendapp-source/yunusalirony/backend-app:${{ github.sha }}
-          file: ./Backend/Dockerfile
+        
 
   deploy:
       runs-on: ubuntu-latest
